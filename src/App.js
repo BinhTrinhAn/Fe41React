@@ -9,18 +9,23 @@ import EventBinding from './DataBinding/EventBinding';
 import State from './State/State';
 import ExState from './State/ExState';
 import ExState2 from './State/ExState2';
+import RenderWithMap from './renderWithMap/RenderWithMap';
+import DemoProps from './Props/DemoProps';
 
 
 function App() {
 	return (
 		<div className="App">
 			{/* <DataBinding></DataBinding> */}
-			{/* <BaiTapDanLayout></BaiTapDanLayout> */}
+			<BaiTapDanLayout></BaiTapDanLayout>
 			{/* buoi 2 */}
 			{/* <EventBinding /> */}
 			{/* <State /> */}
 			{/* <ExState /> */}
-			<ExState2 />
+			{/* <ExState2 /> */}
+			{/* <RenderWithMap /> */}
+			{/* buôi 3 */}
+			{/* <DemoProps /> */}
 		</div>
 	);
 }

@@ -10,8 +10,6 @@ export default class ExState2 extends Component {
             imgSrc: src,
         })
     }
-
-
     render() {
         return (
             <div>
