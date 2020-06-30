@@ -11,13 +11,16 @@ import ExState from './State/ExState';
 import ExState2 from './State/ExState2';
 import RenderWithMap from './renderWithMap/RenderWithMap';
 import DemoProps from './Props/DemoProps';
+import BT2ProductList from './Props/BT2ProductList/BT2ProductList';
+import BT3Phone from './Props/BT3Phone/BT3Phone';
+import BT3List from './Props/BT3LamLai/BT3List';
 
 
 function App() {
 	return (
 		<div className="App">
 			{/* <DataBinding></DataBinding> */}
-			<BaiTapDanLayout></BaiTapDanLayout>
+			{/* <BaiTapDanLayout></BaiTapDanLayout> */}
 			{/* buoi 2 */}
 			{/* <EventBinding /> */}
 			{/* <State /> */}
@@ -26,6 +29,9 @@ function App() {
 			{/* <RenderWithMap /> */}
 			{/* buôi 3 */}
 			{/* <DemoProps /> */}
+			{/* <BT2ProductList /> */}
+			{/* <BT3Phone /> */}
+			<BT3List />
 		</div>
 	);
 }
